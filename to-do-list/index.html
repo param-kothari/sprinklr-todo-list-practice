@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>To-do List</title>
+    <link rel="stylesheet" href="src/style.css">
+    <script async src="src/index.js"></script>
+</head>
+<body>
+    <header>
+        <h2>Responsive To-do List</h2>
+    </header>
+    <div class="board">
+        <div class="lists-container">
+            <div class="add-list-container">
+                <button class="add-list js-add-list btn">Add another list</button>
+                <div class="add-list-header js-add-list-header">
+                    <input type="text" class="list-header-text" id="list-header-text" placeholder="Enter list heading" required>
+                    <div class="add-list-div-btn">
+                        <input type="button" id="confirm-list-header-btn" value="Add list" class="card-title-confirm-btn">
+                        <input type="button" id="cancel-list-header-btn" value="Cancel" class="card-title-cancel-btn">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,186 @@
+html, body, header {
+    box-sizing: border-box;
+    color: #334257;
+    font-family: -apple-system, Helvetica Neue, sans-serif;
+    font-size: 14px;
+    line-height: 1.5rem;
+    background: #2E7EAF;
+}
+
+header {
+    text-align: center;
+    border: 2px solid #808080;
+    border-radius: 0.4rem;
+    background: #ffffff;
+}
+
+div {
+    display: block;
+}
+
+.lists-container {
+    display: flex;
+    padding: 0.2rem 0.2rem;
+    overflow-x: auto;
+    height: 90vh;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 250px;
+    background-color: #d3d3d3;
+    border-radius: 0.4rem;
+    min-height: 1.5rem;
+    margin: 0.5rem;
+    max-height: 50rem;
+    height: fit-content;
+    border: solid 2px #808080;
+}
+
+.list-header {
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding: 0.8rem;
+    width: calc(250px - 2rem);
+    word-wrap: break-word;
+}
+
+.list-items {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    list-style-type: none;
+    margin: 0 0.5rem;
+    padding: 0 0.5rem;
+    overflow-y: auto;
+}
+
+.list-items > li {
+    font-size: 0.9rem;
+    background-color: #fff;
+    padding: 0.5rem;
+    border-bottom: solid 1px #808080;
+    margin-bottom: 0.5rem;
+    border-radius: 0.4rem;
+    width: calc(250px - 2rem);
+    word-wrap: break-word;
+}
+
+.list-items li:last-child {
+    margin-bottom: 0;
+}
+
+.list-items li:hover {
+    background-color: #eee;
+}
+
+.btn {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font: inherit;
+    color: inherit;
+    border: none;
+}
+
+.add-list {
+    display: block;
+    color: #808080;
+    border: none;
+    border-radius: 0.4rem;
+    background-color: #d3d3d3;
+    padding: 1rem;
+    height: 3rem;
+    width: 250px;
+}
+
+.add-card {
+    display: block;
+    background: none;
+    color: #808080;
+    padding: 1rem;
+    height: 3rem;
+}
+
+.add-list:hover,
+.add-card:hover {
+    background-color: #cacaca;
+    color: #777777;
+    border-bottom-left-radius: 0.4rem;
+    border-bottom-right-radius: 0.4rem;
+}
+
+.card-title-div-btn {
+    margin: 0 0.5rem 0.5rem 0.5rem;
+}
+
+.add-list-div-btn {
+    margin: 0 0.5rem 0.5rem 0;
+}
+
+.card-title-text {
+    font-size: 0.9rem;
+    background-color: #fff;
+    padding: 0.5rem;
+    border: none;
+    border-bottom: solid 1px #808080;
+    margin: 0.5rem 1rem 0.5rem 1rem;
+    border-radius: 0.4rem;
+    height: 1.5rem;
+    width: calc(250px - 2rem);
+}
+
+.card-title-confirm-btn {
+    display: inline-block;
+    margin: 0.5rem;
+    background-color: #026aa7;
+    border: none;
+    border-bottom: solid 1px #000000;
+    border-radius: 0.4rem;
+    color: #ffffff;
+    height: 2rem;
+    width: 6rem;
+    cursor: pointer;
+}
+
+.card-title-cancel-btn {
+    display: inline-block;
+    margin: 0.5rem;
+    background-color: #ffffff;
+    border: none;
+    border-bottom: solid 1px #000000;
+    border-radius: 0.4rem;
+    color: #000000;
+    height: 2rem;
+    width: 6rem;
+    cursor: pointer;
+}
+
+.add-list-header {
+    margin: 0.5rem;
+    display: none;
+}
+
+.add-list-container {
+    display: block;
+    flex: 0 0 250px;
+    color: #808080;
+    border: none;
+    border-radius: 0.4rem;
+    background-color: #d3d3d3;
+    margin: 0.5rem;
+    height: max-content;
+    border: solid 2px #808080;
+}
+
+.list-header-text {
+    padding: 0.2rem;
+    margin: 0.5rem;
+    height: 1.8rem;
+    border: none;
+    border-radius: 0.4rem;
+    width: 93%;
+    border-bottom: solid 1px #808080;
+}
