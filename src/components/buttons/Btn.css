@@ -1,0 +1,35 @@
+.Btn {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font: inherit;
+    color: inherit;
+    border: none;
+}
+
+.ConfirmBtn {
+    display: inline-block;
+    margin: 0.5rem;
+    background-color: #026aa7;
+    border: none;
+    border-bottom: solid 1px #000000;
+    border-radius: 0.4rem;
+    color: #ffffff;
+    height: 2rem;
+    width: 6rem;
+    cursor: pointer;
+}
+
+.CancelBtn {
+    display: inline-block;
+    margin: 0.5rem;
+    background-color: #ffffff;
+    border: none;
+    border-bottom: solid 1px #000000;
+    border-radius: 0.4rem;
+    color: #000000;
+    height: 2rem;
+    width: 6rem;
+    cursor: pointer;
+}

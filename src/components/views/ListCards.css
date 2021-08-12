@@ -1,0 +1,28 @@
+.ListItems {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    list-style-type: none;
+    margin: 0 0.5rem;
+    padding: 0 0.5rem;
+    overflow-y: auto;
+}
+
+.ListItems > li {
+    font-size: 0.9rem;
+    background-color: #fff;
+    padding: 0.5rem;
+    border-bottom: solid 1px #808080;
+    margin-bottom: 0.5rem;
+    border-radius: 0.4rem;
+    width: calc(250px - 2rem);
+    word-wrap: break-word;
+}
+
+.ListItems li:last-child {
+    margin-bottom: 0;
+}
+
+.ListItems li:hover {
+    background-color: #eee;
+}

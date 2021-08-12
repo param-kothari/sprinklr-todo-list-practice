@@ -1,0 +1,41 @@
+.CardTitleText {
+    font-size: 0.9rem;
+    background-color: #fff;
+    padding: 0.5rem;
+    border: none;
+    border-bottom: solid 1px #808080;
+    margin: 0.5rem 1rem 0.5rem 1rem;
+    border-radius: 0.4rem;
+    height: 1.5rem;
+    width: calc(250px - 2rem);
+}
+
+.CardTitleBtnDiv {
+    margin: 0 0.5rem 0.5rem 0.5rem;
+}
+
+.CardTitleConfirmBtn {
+    display: inline-block;
+    margin: 0.5rem;
+    background-color: #026aa7;
+    border: none;
+    border-bottom: solid 1px #000000;
+    border-radius: 0.4rem;
+    color: #ffffff;
+    height: 2rem;
+    width: 6rem;
+    cursor: pointer;
+}
+
+.CardTitleCancelBtn {
+    display: inline-block;
+    margin: 0.5rem;
+    background-color: #ffffff;
+    border: none;
+    border-bottom: solid 1px #000000;
+    border-radius: 0.4rem;
+    color: #000000;
+    height: 2rem;
+    width: 6rem;
+    cursor: pointer;
+}

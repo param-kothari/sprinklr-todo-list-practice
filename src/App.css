@@ -1,0 +1,15 @@
+.App {
+  font-family: -apple-system, Helvetica Neue, sans-serif;
+  font-size: 14px;
+  line-height: 1.5rem;
+  background: #2E7EAF;
+  color: #334257;
+  box-sizing: border-box;
+}
+
+.App-header {
+  text-align: center;
+  border: 2px solid #808080;
+  border-radius: 0.4rem;
+  background: #ffffff;
+}
