@@ -1,0 +1,14 @@
+.AddCardBtn {
+    display: block;
+    background: none;
+    color: #505050;
+    padding: 1rem;
+    height: 3rem;
+}
+
+.AddCardBtn:hover {
+    background-color: #cacaca;
+    color: #777777;
+    border-bottom-left-radius: 0.4rem;
+    border-bottom-right-radius: 0.4rem;
+}

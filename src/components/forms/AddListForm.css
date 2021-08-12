@@ -1,0 +1,17 @@
+.AddListForm {
+    margin: 0.5rem;
+}
+
+.ListHeaderText {
+    padding: 0.2rem;
+    margin: 0.5rem;
+    height: 1.8rem;
+    border: none;
+    border-radius: 0.4rem;
+    width: 93%;
+    border-bottom: solid 1px #808080;
+}
+
+.AddListDivBtns {
+    margin: 0 0.5rem 0.5rem 0;
+}
